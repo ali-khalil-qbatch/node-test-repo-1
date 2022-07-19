@@ -6,5 +6,6 @@ const pets = require("./pet");
 for (var pet in pets) {
 	// console.log(pet.name + " " + pet.type);
 	// console.log(pets[pet]);
-	console.log(pet);
+	var _pet = pets[pet];
+	console.log(_pet.title);
 }
